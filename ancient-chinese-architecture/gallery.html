@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片画廊 - 中国古代建筑成就</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="main-navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">🏛️ 中国古代建筑</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">首页</a></li>
+                <li><a href="overview.html" class="nav-link">建筑概述</a></li>
+                <li><a href="palace.html" class="nav-link">宫殿建筑</a></li>
+                <li><a href="temple.html" class="nav-link">宗教建筑</a></li>
+                <li><a href="garden.html" class="nav-link">园林建筑</a></li>
+                <li><a href="residence.html" class="nav-link">民居建筑</a></li>
+                <li><a href="defense.html" class="nav-link">防御建筑</a></li>
+                <li><a href="gallery.html" class="nav-link active">图片画廊</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">图片画廊</h1>
+            <p data-aos="fade-up" data-aos-delay="200">精美图集，视觉盛宴</p>
+        </div>
+    </section>
+
+    <!-- 主要内容 -->
+    <main class="main-content">
+        <div class="container">
+            <!-- 筛选按钮 -->
+            <section class="filter-section" data-aos="fade-up">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">全部</button>
+                    <button class="filter-btn" data-filter="palace">宫殿建筑</button>
+                    <button class="filter-btn" data-filter="temple">宗教建筑</button>
+                    <button class="filter-btn" data-filter="garden">园林建筑</button>
+                    <button class="filter-btn" data-filter="residence">民居建筑</button>
+                    <button class="filter-btn" data-filter="defense">防御建筑</button>
+                </div>
+            </section>
+
+            <!-- 图片网格 -->
+            <section class="gallery-section">
+                <div class="gallery-grid">
+                    <!-- 宫殿建筑 -->
+                    <div class="gallery-item" data-category="palace" data-aos="zoom-in">
+                        <img src="images/gallery/palace-1.jpg" alt="故宫太和殿" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>故宫太和殿</h3>
+                            <p>明清皇家宫殿的核心建筑</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="palace" data-aos="zoom-in" data-aos-delay="50">
+                        <img src="images/gallery/palace-2.jpg" alt="故宫角楼" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>故宫角楼</h3>
+                            <p>精美绝伦的建筑艺术</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="palace" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/gallery/palace-3.jpg" alt="颐和园佛香阁" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>颐和园佛香阁</h3>
+                            <p>皇家园林的标志性建筑</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="palace" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/gallery/palace-4.jpg" alt="沈阳故宫" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>沈阳故宫</h3>
+                            <p>清朝入关前的皇宫</p>
+                        </div>
+                    </div>
+
+                    <!-- 宗教建筑 -->
+                    <div class="gallery-item" data-category="temple" data-aos="zoom-in">
+                        <img src="images/gallery/temple-1.jpg" alt="少林寺" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>少林寺</h3>
+                            <p>天下第一名刹</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple" data-aos="zoom-in" data-aos-delay="50">
+                        <img src="images/gallery/temple-2.jpg" alt="大雁塔" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>大雁塔</h3>
+                            <p>唐代佛教建筑杰作</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/gallery/temple-3.jpg" alt="悬空寺" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>悬空寺</h3>
+                            <p>世界建筑奇迹</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/gallery/temple-4.jpg" alt="布达拉宫" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>布达拉宫</h3>
+                            <p>藏传佛教圣地</p>
+                        </div>
+                    </div>
+
+                    <!-- 园林建筑 -->
+                    <div class="gallery-item" data-category="garden" data-aos="zoom-in">
+                        <img src="images/gallery/garden-1.jpg" alt="拙政园" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>拙政园</h3>
+                            <p>中国四大名园之首</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="garden" data-aos="zoom-in" data-aos-delay="50">
+                        <img src="images/gallery/garden-2.jpg" alt="留园" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>留园</h3>
+                            <p>吴中名园之冠</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="garden" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/gallery/garden-3.jpg" alt="网师园" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>网师园</h3>
+                            <p>小园极则</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="garden" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/gallery/garden-4.jpg" alt="狮子林" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>狮子林</h3>
+                            <p>假山王国</p>
+                        </div>
+                    </div>
+
+                    <!-- 民居建筑 -->
+                    <div class="gallery-item" data-category="residence" data-aos="zoom-in">
+                        <img src="images/gallery/residence-1.jpg" alt="北京四合院" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>北京四合院</h3>
+                            <p>北方民居典范</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="residence" data-aos="zoom-in" data-aos-delay="50">
+                        <img src="images/gallery/residence-2.jpg" alt="福建土楼" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>福建土楼</h3>
+                            <p>世界建筑奇葩</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="residence" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/gallery/residence-3.jpg" alt="徽派民居" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>徽派民居</h3>
+                            <p>粉墙黛瓦马头墙</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="residence" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/gallery/residence-4.jpg" alt="吊脚楼" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>吊脚楼</h3>
+                            <p>西南民族特色建筑</p>
+                        </div>
+                    </div>
+
+                    <!-- 防御建筑 -->
+                    <div class="gallery-item" data-category="defense" data-aos="zoom-in">
+                        <img src="images/gallery/defense-1.jpg" alt="万里长城" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>万里长城</h3>
+                            <p>世界七大奇迹之一</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="defense" data-aos="zoom-in" data-aos-delay="50">
+                        <img src="images/gallery/defense-2.jpg" alt="山海关" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>山海关</h3>
+                            <p>天下第一关</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="defense" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/gallery/defense-3.jpg" alt="嘉峪关" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>嘉峪关</h3>
+                            <p>天下第一雄关</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="defense" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="images/gallery/defense-4.jpg" alt="西安城墙" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>西安城墙</h3>
+                            <p>中国现存最完整的古城墙</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 图片查看器 -->
+            <div class="lightbox" id="lightbox">
+                <button class="lightbox-close">&times;</button>
+                <div class="lightbox-content">
+                    <img src="" alt="" id="lightbox-image">
+                    <div class="lightbox-caption">
+                        <h3 id="lightbox-title"></h3>
+                        <p id="lightbox-description"></p>
+                    </div>
+                </div>
+                <button class="lightbox-prev">&#10094;</button>
+                <button class="lightbox-next">&#10095;</button>
+            </div>
+
+            <!-- 精选轮播 -->
+            <section class="featured-section" data-aos="fade-up">
+                <h2>精选建筑</h2>
+                <div class="swiper featured-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/gallery/featured-1.jpg" alt="故宫全景" loading="lazy">
+                            <div class="slide-info">
+                                <h3>故宫全景</h3>
+                                <p>世界上现存规模最大的宫殿建筑群</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/gallery/featured-2.jpg" alt="长城秋色" loading="lazy">
+                            <div class="slide-info">
+                                <h3>长城秋色</h3>
+                                <p>万里长城的壮美景色</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/gallery/featured-3.jpg" alt="苏州园林" loading="lazy">
+                            <div class="slide-info">
+                                <h3>苏州园林</h3>
+                                <p>咫尺之内再造乾坤</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/gallery/featured-4.jpg" alt="土楼群" loading="lazy">
+                            <div class="slide-info">
+                                <h3>土楼群</h3>
+                                <p>客家人的建筑智慧</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 中国古代建筑成就 - 弘扬中华优秀自然科学成就</p>
+            <p>课程大作业 | 网页设计与制作</p>
+        </div>
+    </footer>
+
+    <!-- 音频播放器 -->
+    <div class="audio-player">
+        <audio id="background-music" loop>
+            <source src="audio/background-music.mp3" type="audio/mpeg">
+            <source src="audio/background-music.ogg" type="audio/ogg">
+        </audio>
+        <button id="play-pause-btn" class="audio-control" title="播放/暂停背景音乐">
+            <span class="play-icon">▶</span>
+            <span class="pause-icon" style="display:none;">⏸</span>
+        </button>
+        <input type="range" id="volume-control" min="0" max="100" value="30" class="volume-slider" title="音量控制">
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/audio-player.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

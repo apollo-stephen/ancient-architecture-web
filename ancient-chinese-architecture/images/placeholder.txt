@@ -1,0 +1,76 @@
+图片资源说明
+==============
+
+请将以下图片放入对应目录：
+
+homepage/ 目录：
+- hero-bg.jpg (首页背景图，建议1920x1080)
+- forbidden-city.jpg (故宫图片)
+- great-wall.jpg (长城图片)
+- suzhou-garden.jpg (苏州园林图片)
+- temple.jpg (寺庙图片)
+
+overview/ 目录：
+- hero-bg.jpg (概述页背景图)
+- ancient-building-1.jpg (古代建筑图片)
+- timeline-1.jpg 到 timeline-6.jpg (时间线图片)
+- type-palace.jpg, type-temple.jpg, type-garden.jpg (建筑类型图片)
+
+palace/ 目录：
+- hero-bg.jpg (宫殿页背景图)
+- palace-intro.jpg (宫殿介绍图)
+- forbidden-city-1.jpg 到 forbidden-city-4.jpg (故宫图片)
+- shenyang-palace.jpg (沈阳故宫)
+- summer-palace-1.jpg 到 summer-palace-4.jpg (颐和园图片)
+
+temple/ 目录：
+- hero-bg.jpg (寺庙页背景图)
+- temple-intro.jpg (寺庙介绍图)
+- shaolin-1.jpg 到 shaolin-4.jpg (少林寺图片)
+- dayan-pagoda.jpg (大雁塔)
+- hanging-temple-1.jpg 到 hanging-temple-4.jpg (悬空寺图片)
+- pagoda-1.jpg, pagoda-2.jpg, pagoda-3.jpg (佛塔图片)
+
+garden/ 目录：
+- hero-bg.jpg (园林页背景图)
+- garden-intro.jpg (园林介绍图)
+- zhuozheng-1.jpg 到 zhuozheng-4.jpg (拙政园图片)
+- liuyuan.jpg (留园)
+- wangshi-1.jpg 到 wangshi-4.jpg (网师园图片)
+- technique-1.jpg, technique-2.jpg, technique-3.jpg (造园手法图片)
+
+residence/ 目录：
+- hero-bg.jpg (民居页背景图)
+- residence-intro.jpg (民居介绍图)
+- siheyuan-1.jpg 到 siheyuan-4.jpg (四合院图片)
+- tulou.jpg (福建土楼)
+- huizhou-1.jpg 到 huizhou-4.jpg (徽派民居图片)
+- yaodong.jpg (窑洞)
+- diaojiaolou.jpg (吊脚楼)
+- mongolian.jpg (蒙古包)
+
+defense/ 目录：
+- hero-bg.jpg (防御建筑页背景图)
+- defense-intro.jpg (防御建筑介绍图)
+- great-wall-1.jpg 到 great-wall-4.jpg (长城图片)
+- xian-wall.jpg (西安城墙)
+- shanhaiguan-1.jpg 到 shanhaiguan-4.jpg (山海关图片)
+- jiayuguan.jpg (嘉峪关)
+- beacon-tower.jpg (烽火台)
+- watchtower.jpg (敌楼)
+- wengcheng.jpg (瓮城)
+
+gallery/ 目录：
+- hero-bg.jpg (画廊页背景图)
+- palace-1.jpg 到 palace-4.jpg (宫殿类图片)
+- temple-1.jpg 到 temple-4.jpg (寺庙类图片)
+- garden-1.jpg 到 garden-4.jpg (园林类图片)
+- residence-1.jpg 到 residence-4.jpg (民居类图片)
+- defense-1.jpg 到 defense-4.jpg (防御建筑类图片)
+- featured-1.jpg 到 featured-4.jpg (精选图片)
+
+图片获取建议：
+1. 可以从免费图片网站获取，如 Unsplash、Pexels、Pixabay
+2. 搜索关键词：故宫、长城、苏州园林、少林寺、土楼等
+3. 注意图片版权，选择可免费使用的图片
+4. 建议图片尺寸：宽度800-1200px，保持合适的文件大小

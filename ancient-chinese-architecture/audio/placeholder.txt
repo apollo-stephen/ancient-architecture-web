@@ -1,0 +1,22 @@
+音频资源说明
+==============
+
+请将背景音乐文件放入此目录：
+
+需要的文件：
+- background-music.mp3 (背景音乐，建议古典音乐如古筝、琵琶曲)
+
+可选文件：
+- background-music.ogg (OGG格式备用，提高浏览器兼容性)
+
+音频获取建议：
+1. 可以从免费音乐网站获取，如 Free Music Archive、Incompetech
+2. 搜索关键词：Chinese traditional music、Guzheng、Chinese classical
+3. 注意音频版权，选择可免费使用的音乐
+4. 建议音频时长：2-5分钟，循环播放
+5. 建议文件大小：不超过5MB，以保证加载速度
+
+推荐的免费古典音乐资源：
+- https://freemusicarchive.org/
+- https://incompetech.com/music/
+- https://www.bensound.com/
