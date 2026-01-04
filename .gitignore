@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE/Editor
+.vscode/
+.idea/
+.kiro/
+*.swp
+*.swo
+
+# Node (如果以后添加构建工具)
+node_modules/
+
+# Logs
+*.log
